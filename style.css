@@ -1,0 +1,58 @@
+/* Ссылка на шрифт Pacifico (например, из Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Применение Pacifico к заголовкам и текстовым элементам */
+h1.nadpis,
+p {
+  font-family: 'Pacifico', cursive;
+}
+
+.background-container {
+  background-image: url('img/image0_3.jpg');
+  /* Путь к вашей фоновой картинке */
+  background-size: contain;
+  /* Сохраняем пропорции фоновой картинки */
+  background-repeat: no-repeat;
+  /* Предотвращаем повторение фоновой картинки */
+  background-position: center;
+  padding: 20px;
+  position: relative;
+  height: 100vh;
+  /* Установка высоты на весь экран (viewport height) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article {
+  text-align: center;
+  background-color: peachpuff;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  border-radius: 15%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: peachpuff;
+  text-decoration: none;
+  color: black;
+  border: 2px solid #e97e6b;
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Pacifico', cursive;
+}
+
+.button:hover {
+  background-color: #e97e6b;
+  color: white;
+}
