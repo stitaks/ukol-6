@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 h1.nadpis,
+h1.nadpis2,
 p {
   font-family: 'Pacifico', cursive;
 }
@@ -49,4 +50,26 @@ p {
 .button:hover {
   background-color: #e97e6b;
   color: white;
+}
+
+.img2 {
+  background-image: url('img/image0_6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nadpis2 {
+  color: rgb(51, 161, 51);
+  font-size: 5vh;
+}
+
+.odstavec_projekt {
+  font-size: 3vh;
 }
